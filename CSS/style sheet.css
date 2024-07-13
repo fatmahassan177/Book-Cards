@@ -1,0 +1,107 @@
+body{
+    perspective: 1000px;
+    background-color: rgb(204, 184, 175);
+
+}
+.s1,.d1,.d2,.s2,.d3,.d4,.s3,.d5,.d6,.s4,.d7,.d8,
+.s6,.d11,.d12 ,.s7,.d13,.d14,.s8,.d15,.d16,.s5,.d10,.d9{
+    width: 265px;
+    height: 350px;
+    background-color: blue;  
+    transition: 1.5s;
+    float: left;
+}
+.d2,.d4,.d6,.d8,.d12,.d14,.d16,.d10{
+    background-color: rgb(20, 18, 15);
+    transform: rotatey(180deg);
+    color: white;
+    text-align: center;
+    font-size: 20;
+  
+}
+.s1,.s2,.s3,.s4{
+    margin-left: 70px;
+    margin-top: 50px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.d2,.d1,.d3,.d4,.d5,.d6,.d7,.d8,.d12,.d11,.d13,.d14,.d15,.d16,.d9,.d10{
+    position: absolute;
+}
+.d1,.d3,.d5,.d7,.d11.d13,.d15,.d11,.d13,.d15,.d9{
+    z-index: 1;
+    backface-visibility: hidden;
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.d1{
+    background-image: url(../image/ق1.jpg);
+}
+.s1:hover{
+    transform: rotatey(180deg);
+}
+/*/////////////////////////*/
+
+.d3{
+   background-image: url(../image/ق2.jpeg);
+}
+.s2:hover{
+    transform: rotatey(180deg);
+}
+/*//////////////////////////////////////*/
+.d5{
+   
+   background-image: url(../image/مم2.jpg); 
+}
+
+.s3:hover{
+    transform: rotatey(180deg);
+    
+}
+/*//////////////////////////////////////*/
+
+.d7{
+   background-image: url(../image/فتاه.jpg);
+   
+}
+.s4:hover{
+    transform: rotatey(180deg);
+}
+/*//////////////////////////////////////*/
+
+.s5:hover{
+    transform: rotatey(180deg);
+}
+/*/////////////////sec 2/////////////////////*/
+
+.s6,.s7,.s8,.s5{
+    margin-left: 70px;
+    margin-top: 70px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+ 
+.d11{
+    background-image: url(../image/ارض1.jpg);
+}
+.d13{
+    background-image: url(../image/ارض2.jpg);
+}
+.d15{
+    background-image: url(../image/وادي.jpg);
+}
+.d9{
+    background-image: url(../image/الخيميائي.jpg);
+}
+.s6:hover{
+    transform: rotatey(180deg);
+}
+.s7:hover{
+    transform: rotatey(180deg);
+}
+.s8:hover{
+    transform: rotatey(180deg);
+}
+/*//////////////////////////////////////*/
+
